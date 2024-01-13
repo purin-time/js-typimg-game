@@ -46,6 +46,7 @@ document.addEventListener('keydown', (event) => {
           var fin = document.createElement('div');
           fin.innerText = "fin!";
           box.appendChild(fin);
+          finAnime();
         }
         const startTimer = () => {
           letterOneBefore();
